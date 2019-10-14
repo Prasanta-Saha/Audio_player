@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient1"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:id="@+id/layouttwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical"
+            android:weightSum="5"
+            tools:ignore="DuplicateIds">
+
+            <Button
+                android:id="@+id/a"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="50dp"
+                android:onClick="playsong"
+                android:paddingTop="15dp"
+                android:tag="a"
+                android:text="@string/f" />
+
+            <Button
+                android:id="@+id/b"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="50dp"
+                android:onClick="playsong"
+                android:paddingTop="15dp"
+                android:tag="b"
+                android:text="@string/s" />
+
+            <Button
+                android:id="@+id/c"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="50dp"
+                android:onClick="playsong"
+                android:paddingTop="15dp"
+                android:tag="c"
+                android:text="@string/t" />
+
+            <Button
+                android:id="@+id/d"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="50dp"
+                android:onClick="playsong"
+                android:paddingTop="15dp"
+                android:tag="d"
+                android:text="@string/fo" />
+
+            <Button
+                android:id="@+id/e"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="50dp"
+                android:onClick="playsong"
+                android:paddingTop="15dp"
+                android:tag="e"
+                android:text="@string/fi" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

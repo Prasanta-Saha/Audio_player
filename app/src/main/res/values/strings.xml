@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Audio player</string>
+    <string name="f">1. song</string>
+    <string name="s">2. song</string>
+    <string name="t">3. song</string>
+    <string name="fo">4. song</string>
+    <string name="fi">5. song</string>
+
+</resources>
